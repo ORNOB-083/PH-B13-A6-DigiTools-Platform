@@ -1,0 +1,14 @@
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <h1 className='font-bold text-2xl bg-amber-900 text-white p-4 text-center '>Hello Vite + React</h1>
+    </>
+  )
+}
+
+export default App
