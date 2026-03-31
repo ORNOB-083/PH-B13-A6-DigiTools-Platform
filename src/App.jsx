@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import NavBar from './component/NavBar'
+import StatsSection from './component/StatsSection'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -8,6 +9,8 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
+
+      <StatsSection></StatsSection>
 
       {/* <h1 className='font-bold text-2xl bg-amber-900 text-white p-4 text-center '>Hello Vite + React</h1> */}
     </>
