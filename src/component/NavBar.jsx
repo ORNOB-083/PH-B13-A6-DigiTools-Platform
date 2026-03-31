@@ -1,4 +1,4 @@
-import logo from '../assets/products/shopping-cart.png';
+import cart from '../assets/products/shopping-cart.png';
 
 const NavBar = () => {
     return (
@@ -27,7 +27,7 @@ const NavBar = () => {
             </div>
 
             <div className="navbar-end gap-5">
-                <img src={logo} alt="Logo" className="h-6 w-6" />
+                <img src={cart} alt="Logo" className="h-6 w-6" />
                 <button className="btn btn-ghost text-lg">Login</button>
                 <a className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
             </div>
