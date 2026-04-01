@@ -5,6 +5,7 @@ import StatsSection from './component/StatsSection'
 import HeroSection from './component/HeroSection'
 import StepsSection from './component/StepsSection'
 import PricingSection from './component/PricingSection'
+import BottomSection from './component/BottomSection'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,6 +22,8 @@ function App() {
       <StepsSection></StepsSection>
 
       <PricingSection></PricingSection>
+
+      <BottomSection></BottomSection>
 
       {/* <h1 className='font-bold text-2xl bg-amber-900 text-white p-4 text-center '>Hello Vite + React</h1> */}
     </>

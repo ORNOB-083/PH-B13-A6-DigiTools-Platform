@@ -6,14 +6,14 @@ const PricingSection = () => {
             <div className="max-w-6xl mx-auto px-6">
 
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl font-semibold text-gray-900">Simple, Transparent Pricing</h2>
+                    <h2 className="text-5xl font-bold text-gray-900">Simple, Transparent Pricing</h2>
                     <p className="text-gray-600 mt-3 text-lg">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
                 </div>
 
                 {/* All cards */}
                 <div className="grid md:grid-cols-3 gap-8">
                     {/* Starter */}
-                    <div className="bg-white border border-gray-200 rounded-3xl p-8 hover:shadow-xl">
+                    <div className="bg-gray-50 border border-gray-200 rounded-3xl p-8 hover:shadow-xl">
                         <h3 className="text-xl font-semibold text-gray-900">Starter</h3>
                         <p className="text-gray-500 text-sm mt-1">Perfect for getting started</p>
 
@@ -33,8 +33,8 @@ const PricingSection = () => {
                     </div>
 
                     {/* Pro */}
-                    <div className="bg-gradient-to-br from-[#4F39F6] to-[#9514FA] text-white rounded-3xl p-8 relative shadow-2xl scale-105">
-                        <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-yellow-900 text-xs font-bold px-5 py-1 rounded-full">
+                    <div className="bg-gradient-to-br from-[#4F39F6] to-[#9514FA] text-white rounded-3xl p-8 relative hover:shadow-2xl">
+                        <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-200 text-yellow-900 text-xs font-bold px-5 py-1 rounded-full">
                             Most Popular
                         </div>
 
@@ -59,7 +59,7 @@ const PricingSection = () => {
                     </div>
 
                     {/* Enterprise */}
-                    <div className="bg-white border border-gray-200 rounded-3xl p-8 hover:shadow-xl">
+                    <div className="bg-gray-50 border border-gray-200 rounded-3xl p-8 hover:shadow-xl">
                         <h3 className="text-xl font-semibold text-gray-900">Enterprise</h3>
                         <p className="text-gray-500 text-sm mt-1">For teams and businesses</p>
 
