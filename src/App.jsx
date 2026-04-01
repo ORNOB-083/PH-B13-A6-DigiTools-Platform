@@ -4,6 +4,7 @@ import NavBar from './component/NavBar'
 import StatsSection from './component/StatsSection'
 import HeroSection from './component/HeroSection'
 import StepsSection from './component/StepsSection'
+import PricingSection from './component/PricingSection'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -18,6 +19,8 @@ function App() {
 
 
       <StepsSection></StepsSection>
+
+      <PricingSection></PricingSection>
 
       {/* <h1 className='font-bold text-2xl bg-amber-900 text-white p-4 text-center '>Hello Vite + React</h1> */}
     </>
