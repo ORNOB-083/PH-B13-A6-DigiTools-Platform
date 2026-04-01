@@ -1,16 +1,33 @@
-# React + Vite
+# 🛍️ DigiTools – Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
 
-Currently, two official plugins are available:
+DigiTools is a modern digital tools marketplace where users can explore, select, and purchase various productivity tools. The website provides a smooth user experience with product browsing, cart functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* DaisyUI
+* JavaScript (ES6+)
+* React-Toastify
+* JSON (for product data)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+Cart Management System: Users can seamlessly add products to the cart, remove individual items, and complete the process with a single “Proceed to Checkout” action that clears all selected items.
+
+Seamless Navigation: The application enables smooth switching between product listings and the cart view without page reloads, ensuring a fast and uninterrupted user experience.
+
+Real-Time Notifications: Interactive toast notifications provide instant feedback for user actions such as adding items, removing products, and completing checkout.
+
+## 📸 Live Link: 
+
+https://digitools-platform-083.netlify.app/
+
+
+

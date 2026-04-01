@@ -1,8 +1,8 @@
 import cart from '../assets/products/shopping-cart.png';
 
-const NavBar = () => {
+const NavBar = ({ carts }) => {
     return (
-        <div className="navbar py-5 px-50">
+        <div className="navbar py-5 px-50 bg-gray-100">
             <div className="navbar-start">
                 <h1 className="text-5xl  font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent pb-3">DigiTools</h1>
             </div>
